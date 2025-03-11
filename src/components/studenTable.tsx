@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { getExamenData, updateExamenItem, deleteExamenItem } from "../lib/api";
 
 /* Acá hay un error aproposito descubrelo */
-export default function studenTable() {
+export default function StudenTable() {
   const [datos, setDatos] = useState<
     { id: number; nombre: string; completado: boolean }[]
   >([]);
